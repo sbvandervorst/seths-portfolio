@@ -127,9 +127,7 @@ export default function Home() {
   const styles = {
     // Background gradient for the entire page
     gradientBg: {
-      background: darkMode 
-        ? 'linear-gradient(to bottom right, #0a1929, #132f4c)' // Dark mode gradient
-        : 'linear-gradient(to bottom right, #f8fafc, #e2e8f0)', // Light mode gradient
+      backgroundColor: darkMode ? '#171717' : '#f4f1ea',
       minHeight: '100vh', // Full viewport height
     },
     // Navigation bar styling
